@@ -1,0 +1,100 @@
+body{
+	background-color:black;
+}
+.fundo {
+	height:80%;
+	background-image: url("acao.png");
+	background-repeat: no-repeat;	
+}
+a{
+	text-decoration:none;
+}
+.gen{
+	color:black;
+
+}
+.inicio{
+	font-family: Centaur;
+	font-size: 84px;
+	margin-top:180px;
+	margin-left:340px;
+	color:white;
+}
+
+nav{
+	background-color: #042B3D;
+}
+.txtbusca{
+	background-image: url("https://cdn-icons-png.flaticon.com/512/694/694985.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 1.3em;
+	margin-left:25%;
+	border: 1px solid black;
+	min-width:5px;
+}
+.link{
+	color: white;
+	margin-left:25%;
+}
+.link1{
+	color:white;
+	margin-left:25%;
+}
+.link1:hover{
+	color:#B0C4DE;
+}
+.link:hover{
+	color:#B0C4DE;
+	}
+.capa1{
+	width:284px;
+	height:445px;
+	}
+.secoes{
+	color:white;
+	font-size: 30px;
+	text-align:center;
+	font-family: 'American Typewriter', serif;
+}
+.voltar{
+	color:white;
+	font-size: 18px;
+	margin-left:43.5%;
+	background-color:#042B3D;
+	padding:0.8%;
+
+}
+footer{
+	background-color:#042B3D;
+	padding-top:0.8%;
+	padding-bottom:0.5%;
+}
+footer:hover{
+	border: 1.5px dashed white;
+}
+.catalago{
+	display:flex;
+	width:100%;
+	overflow:hidden;
+}
+.livro{
+	padding:1%;
+	width:9%;
+	height:10%;
+	transition-duration:1s;
+	font-size:4px;
+}
+.livro:hover{
+	padding:2%;
+	height:20%;
+	width:20%;
+	color:white;
+	font-size:18px;
+}
+.titulo{
+	font-size: 24px;
+}
+.autor{
+	font-family:Centaur;
+}
